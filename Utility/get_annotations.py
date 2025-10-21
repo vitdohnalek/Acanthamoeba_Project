@@ -1,3 +1,4 @@
+#Add protein annoations to your tsv
 from Bio import SeqIO
 
 
