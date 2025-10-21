@@ -53,7 +53,6 @@ ggplot(res_df, aes(x=log2FoldChange, y=-log10(padj))) +
   theme_minimal() + ggtitle("Volcano plot")
 
 # Top-variable genes heatmap
-# Top-variable genes heatmap
 topgenes <- head(order(rowVars(assay(vsd)), decreasing=TRUE), 50)
 annotation_col <- data.frame(condition=samples$condition)
 rownames(annotation_col) <- samples$sample  # ensure alignment
