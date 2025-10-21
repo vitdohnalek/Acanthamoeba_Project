@@ -1,3 +1,4 @@
+#Write two separate fasta files with up and downregulated proteins
 from Bio import SeqIO
 
 
