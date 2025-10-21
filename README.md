@@ -1,4 +1,4 @@
-# Instructions for all Acanthamoeba project related procedures
+# Instructions for Acanthamoeba project related procedures
 
 Genome assembly using Trinity and differential gene expression analysis using Salmon are the main parts of the pipeline. All tools and instrauctions are kept in the Instructions.md
 Example of the interactive volcano plot with data produced by this pipeline in Rstudio:
